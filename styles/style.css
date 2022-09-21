@@ -134,7 +134,7 @@ h4 {
 	padding: .4rem;
 	margin: .5rem 1rem;
 }
-.flex figure a,
+.flex figure > a,
 .flex figure figcaption {
 	display: block;
 }
