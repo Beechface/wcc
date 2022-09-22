@@ -157,7 +157,7 @@ h4 {
 
 .bar {display:flex; flex-direction: column; border-radius: 10px; width: 100px; height: 12px; background: rgba(0 0 0 / .1); margin: 0 .7rem;}
 
-.label {width: 8em; text-align: center;}
+.label {width: 10rem; text-align: center;}
 .label.active {color: var(--accent);}
 .fill {background: var(--accent); height: 100%;}
 
