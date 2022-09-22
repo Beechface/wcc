@@ -145,3 +145,21 @@ h4 {
 .flex figure figcaption {
 	padding: .625rem .5rem;
 }
+
+/* 16 Personalities Recreation */
+.trait {display: flex; place-items: center; margin: .5rem;}
+
+.mind {--accent: #4298b4;}
+.energy {--accent: #e4ae3a;}
+.nature {--accent: #33a474;}
+.tactics {--accent: #88619a;}
+.identity {--accent: #f25e62;}
+
+.bar {display:flex; flex-direction: column; border-radius: 10px; width: 100px; height: 12px; background: rgba(0 0 0 / .1); margin: 0 .7rem;}
+
+.label {width: 8em; text-align: center;}
+.label.active {color: var(--accent);}
+.fill {background: var(--accent); height: 100%;}
+
+.extraverted, .intuitive, .thinking, .judging, .assertive {left: 0; border-radius: 10px 0 0 10px; place-self: flex-start;}
+.introverted, .observant, .feeling, .prospecting, .turbulent {right: 0; border-radius: 0 10px 10px 0; place-self: flex-end;}
