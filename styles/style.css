@@ -1,12 +1,11 @@
 :root {
 	--content-width: 80vw;
 	--rounded: 4px;
-	--accent: 98, 205, 254;
-	--accent-solid: rgb(var(--accent));
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
+		--accent: 74, 154, 191;
 		--bg-main: #efefef;
 		--bg-content: #dedede;
 		--bg-content-hover: #e7e7e7;
@@ -16,6 +15,7 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
+		--accent: 98, 205, 254;
 		--bg-main: #101010;
 		--bg-content: #212121;
 		--bg-content-hover: #292929;
@@ -26,6 +26,7 @@
 body {
 	background: var(--bg-main);
 	color: var(--txt-main);
+	--accent-solid: rgb(var(--accent));
 }
 
 a {
