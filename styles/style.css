@@ -23,6 +23,12 @@
 	}
 }
 
+@media (max-width: 900px) {
+	:root {
+		--content-width: 100vw;
+	}
+}
+
 body {
 	background: var(--bg-main);
 	color: var(--txt-main);
