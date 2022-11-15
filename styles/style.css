@@ -52,6 +52,9 @@ a {
 .whitesnake {--accent-solid: #d5983b;}
 .harechaser {--accent-solid: #3c9613;}
 .wolfblossom {--accent-solid: #a0c8e6;}
+.stoneheart {--accent-solid: #616d87;}
+.flamegaze {--accent-solid: #d36702;}
+.moondancer {--accent-solid: #80a395;}
 
 header, main, footer {
 	width: var(--content-width);
