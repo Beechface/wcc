@@ -1,6 +1,7 @@
 :root {
 	--content-width: 80vw;
 	--rounded: 4px;
+	font-feature-settings: 'cv03', 'cv04', 'cv05';
 }
 
 @media (prefers-color-scheme: light) {
