@@ -1,6 +1,9 @@
+@import url('/wcc/font/Inter.ttf');
+
 :root {
 	--content-width: 80vw;
 	--rounded: 4px;
+	font-family: 'Inter';
 	font-feature-settings: 'cv03', 'cv04', 'cv05';
 }
 
