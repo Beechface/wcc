@@ -173,7 +173,7 @@ p {
 .tactics {--accent: #88619a;}
 .identity {--accent: #f25e62;}
 
-.bar {display:flex; flex-direction: column; border-radius: 10px; width: 100px; height: 12px; background: rgba(0 0 0 / .1); margin: 0 .7rem;}
+.bar {display:flex; flex-direction: column; border-radius: 10px; width: 100px; height: 7px; background: rgba(0 0 0 / .1); margin: 0 .7rem;}
 
 .label {width: 10rem; text-align: center;}
 .label.active {width: 10rem; color: var(--accent);}
