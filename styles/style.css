@@ -59,6 +59,7 @@ a {
 .stoneheart {--accent-solid: #616d87;}
 .flamegaze {--accent-solid: #d36702;}
 .moondancer {--accent-solid: #80a395;}
+.graywind {--accent-solid: #c99700;}
 
 header, main, footer {
 	width: var(--content-width);
