@@ -1,10 +1,10 @@
-@import url('/wcc/font/Inter.ttf');
+@import url('/wcc/style.fontInter.css');
 
 :root {
 	--content-width: 80vw;
 	--rounded: 4px;
 	font-family: 'Inter';
-	font-feature-settings: 'cv03', 'cv04', 'cv05';
+	/* font-feature-settings: 'cv03', 'cv04', 'cv05'; */
 }
 
 @media (prefers-color-scheme: light) {
