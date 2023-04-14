@@ -8,6 +8,6 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-    font-variation-settings: 'liga', 'calt';
-    font-feature-settings: 'liga', 'calt';
+    font-variation-settings: 'liga', 'calt', 'cv03', 'cv04', 'cv05';
+    font-feature-settings: 'liga', 'calt', 'cv03', 'cv04', 'cv05';
 }
