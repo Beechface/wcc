@@ -1,7 +1,7 @@
 @import url('/wcc/styles/fontInter.css');
 
 :root {
-	--content-width: 80vw;
+	--content-width: 90vw;
 	--rounded: 4px;
 	font-family: 'Inter';
 }
@@ -39,7 +39,7 @@ body {
 }
 
 a {
-	font-weight: bold;
+	font-weight: normal;
 	color: var(--accent-solid);
 }
 
@@ -59,6 +59,7 @@ a {
 .flamegaze {--accent-solid: #d36702;}
 .moondancer {--accent-solid: #80a395;}
 .graywind {--accent-solid: #c99700;}
+.aurelia {--accent-solid: #b2c667;}
 
 header, main, footer {
 	width: var(--content-width);
