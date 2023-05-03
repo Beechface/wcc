@@ -1,0 +1,22 @@
+.kj {width:1000px; height:auto; margin:auto;text-align:center;display:flex;}
+.kj .fle {width:calc(1000px / 7);}
+
+.fle span:first-of-type {display:block; font-weight:bold;}
+
+.smokefeather {color: #427057;}
+.b {color: #6e8c0a;}
+.m {color: #1944c1;}
+.nighthawk {color: #d15c2a;}
+.eosphoros {color: #5c563d;}
+.bs {color: #5bbd75;}
+.s {color: #52c4c2;}
+.featherfrost {color: #1697ce;}
+.bw {color: #702fd8;}
+.whitesnake {color: #d5983b;}
+.h {color: #3c9613;}
+.w {color: #a0c8e6;}
+.sh {color: #616d87;}
+.flamegaze {color: #d36702;}
+.md {color: #80a395;}
+.g {color: #c99700;}
+.aur {color: #b2c667;}
