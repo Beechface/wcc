@@ -1,7 +1,8 @@
 .kj {width:1000px; height:auto; margin:auto;text-align:center;font-weight:bold;display:flex;}
-.kj .fle {font-weight:normal;width:calc(1000px / 7);}
+.kt {display:block; text-align:center;}
+.kj .fl {font-weight:normal;width:calc(1000px / 7);}
 
-.fle span:first-of-type {display:block; font-weight:bold;}
+.fl span:first-of-type {display:block; font-weight:bold;}
 
 .smokefeather {color: #427057;}
 .b {color: #6e8c0a;}
