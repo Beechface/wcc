@@ -1,25 +1,27 @@
-.kj {width:1000px; height:auto; margin:auto;text-align:center;font-weight:bold;display:flex;flex-wrap:wrap;}
-.kt {display:block; text-align:center; background: url(https://beechface.github.io/wcc/sig/Snickerdoodle.png);background-size: cover;flex-basis: 100%;width: 1000px;height: 320px;flex-grow: 1;}
-.kb {display:block; text-align:center; width: 1000px; flex-grow: 1;}
+@import url('/wcc/styles/fontInter.css');
+
+.kj {font-family: 'Inter'; width:1000px; height:auto; margin:auto;text-align:center;font-weight:bold;display:flex;flex-wrap:wrap;}
+.kt {font-family: 'Inter'; display:block; text-align:center; background: url(https://beechface.github.io/wcc/sig/Snickerdoodle.png);background-size: cover;flex-basis: 100%;width: 1000px;height: 320px;flex-grow: 1;}
+.kb {font-family: 'Inter'; display:block; text-align:center; width: 1000px; flex-grow: 1;}
 
 .kj .fl {font-weight:normal;width:calc(1000px / 7);}
 
 .fl span:first-of-type {display:block; font-weight:bold;}
 
 .smokefeather {color: #427057;}
-.b {color: #6e8c0a;}
-.m {color: #1944c1;}
+.beechfang, .b {color: #6e8c0a;}
+.mistyfalcon, .m {color: #1944c1;}
 .nighthawk {color: #d15c2a;}
 .eosphoros {color: #5c563d;}
-.bs {color: #5bbd75;}
-.s {color: #52c4c2;}
+.birdsong, .bs {color: #5bbd75;}
+.swiftspirit, .s {color: #52c4c2;}
 .featherfrost {color: #1697ce;}
-.bw {color: #702fd8;}
+.brackenwing, .bw {color: #702fd8;}
 .whitesnake {color: #d5983b;}
-.h {color: #3c9613;}
-.w {color: #a0c8e6;}
-.sh {color: #616d87;}
+.harechaser, .h {color: #3c9613;}
+.wolfblossom, .w {color: #a0c8e6;}
+.stoneheart, .sh {color: #616d87;}
 .flamegaze {color: #d36702;}
-.md {color: #80a395;}
-.g {color: #c99700;}
+.moondancer, .md {color: #80a395;}
+.graywind, .g {color: #c99700;}
 .aur {color: #b2c667;}
