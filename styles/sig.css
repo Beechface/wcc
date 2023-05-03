@@ -1,5 +1,5 @@
-.kj {width:1000px; height:auto; margin:auto;text-align:center;display:flex;}
-.kj .fle {width:calc(1000px / 7);}
+.kj {width:1000px; height:auto; margin:auto;text-align:center;font-weight:bold;display:flex;}
+.kj .fle {font-weight:normal;width:calc(1000px / 7);}
 
 .fle span:first-of-type {display:block; font-weight:bold;}
 
