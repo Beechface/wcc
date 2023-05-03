@@ -1,4 +1,4 @@
-.kj {width:1000px; height:auto; margin:auto;text-align:center;font-weight:bold;display:flex;}
+.kj {width:1000px; height:auto; margin:auto;text-align:center;font-weight:bold;display:flex;flex-wrap:wrap;}
 .kt {display:block; text-align:center; background: url(https://beechface.github.io/wcc/sig/Snickerdoodle.png);background-size: cover;flex-basis: 100%;width: 1000px;height: 320px;flex-grow: 1;}
 .kb {display:block; text-align:center; width: 1000px; flex-grow: 1;}
 
