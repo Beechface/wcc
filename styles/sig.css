@@ -69,7 +69,7 @@ POSTING TEMPLATE
   white-space: pre-line;
 }
 
-.kj_posttext b, .kj_posttext i, .kj_lyrics b, .kj_postooc b {color: var(--accent);}
+.kj_posttext b, .kj_posttext strong, .kj_posttext i, .kj_lyrics b, .kj_postooc b {color: var(--accent);}
 
 .kj_postfoot, .kj_postooc {
   font-family: 'Inter';
