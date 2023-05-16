@@ -8,20 +8,79 @@
 
 .fl span:first-of-type {display:block; font-weight:bold;}
 
-.smokefeather {color: #427057;}
-.beechfang, .b {color: #6e8c0a;}
-.mistyfalcon, .m {color: #1944c1;}
-.nighthawk {color: #d15c2a;}
-.eosphoros {color: #5c563d;}
-.birdsong, .bs {color: #5bbd75;}
-.swiftspirit, .s {color: #52c4c2;}
-.featherfrost {color: #1697ce;}
-.brackenwing, .bw {color: #702fd8;}
-.whitesnake {color: #d5983b;}
-.harechaser, .h {color: #3c9613;}
-.wolfblossom, .w {color: #a0c8e6;}
-.stoneheart, .sh {color: #616d87;}
-.flamegaze {color: #d36702;}
-.moondancer, .md {color: #80a395;}
-.graywind, .g {color: #c99700;}
-.aur {color: #b2c667;}
+.smokefeather {color: #427057; --accent: #427057;}
+.beechfang, .b {color: #6e8c0a; --accent: #6e8c0a;}
+.mistyfalcon, .m {color: #1944c1; --accent: #1944c1;}
+.nighthawk {color: #d15c2a; --accent: #d15c2a;}
+.eosphoros {color: #5c563d; --accent: #5c563d;}
+.birdsong, .bs {color: #5bbd75; --accent: #5bbd75;}
+.swiftspirit, .s {color: #52c4c2; --accent: #52c4c2;}
+.featherfrost {color: #1697ce; --accent: #1697ce;}
+.brackenwing, .bw {color: #702fd8; --accent: #702fd8;}
+.whitesnake {color: #d5983b; --accent: #d5983b;}
+.harechaser, .h {color: #3c9613; --accent: #3c9613;}
+.wolfblossom, .w {color: #a0c8e6; --accent: #a0c8e6;}
+.stoneheart, .sh {color: #616d87; --accent: #616d87;}
+.flamegaze {color: #d36702; --accent: #d36702;}
+.moondancer, .md {color: #80a395; --accent: #80a395;}
+.graywind, .g {color: #c99700; --accent: #c99700;}
+.aurelia, .a {color: #b2c667; --accent: #b2c667;}
+
+/****************
+POSTING TEMPLATE
+*****************/
+.kj_postwrap {
+  margin: 0 auto;
+  width: 550px;
+  border-radius: 3px;
+  overflow: auto;
+  background: #222222;
+}
+
+.kj_posthead_img {
+  height: 300px;
+  background-image: url("https://i.pinimg.com/564x/81/21/99/812199e03b115ceff9aa340eb9418b5f.jpg");
+  background-size: 100%;
+  background-position: 0 400px;
+}
+
+.kj_posthead_grad {
+  margin-top: -300px;
+  height: 300px;
+  background: #435138;
+  background: linear-gradient(transparent, #222);
+}
+
+.kj_lyrics {
+  font-family: georgia;
+  position: relative;
+  bottom: -50%;
+  text-align: center;
+  color: #ceced7;
+  text-transform: uppercase;
+}
+
+.kj_posttext {
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px 30px 50px;
+  color: #ceced7;
+  white-space: pre-line;
+}
+
+.kj_posttext b, .kj_posttext i, .kj_lyrics b, .kj_postooc b {color: var(--accent);}
+
+.kj_postfoot, .kj_postooc {
+  font-family: 'Inter';
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 0;
+  color: #ceced7;
+  margin-bottom: 20px;
+}
+
+.kj_postfoot .dot {
+  margin: 0 25px;
+  color: var(--accent);
+}
