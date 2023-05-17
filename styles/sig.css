@@ -9,21 +9,21 @@
 .fl span:first-of-type {display:block; font-weight:bold;}
 
 .smokefeather {color: #427057; --accent: #427057;}
-.beechfang, .b {color: #6e8c0a; --accent: #6e8c0a;}
+.beechfang, .b {color: #6e8c0a; --accent: #6e8c0a; --img: url("https://wallpapercave.com/wp/ZuCcfrF.jpg");}
 .mistyfalcon, .m {color: #1944c1; --accent: #1944c1;}
 .nighthawk {color: #d15c2a; --accent: #d15c2a;}
 .eosphoros {color: #5c563d; --accent: #5c563d;}
 .birdsong, .bs {color: #5bbd75; --accent: #5bbd75;}
 .swiftspirit, .s {color: #52c4c2; --accent: #52c4c2;}
 .featherfrost {color: #1697ce; --accent: #1697ce;}
-.brackenwing, .bw {color: #702fd8; --accent: #702fd8;}
+.brackenwing, .bw {color: #702fd8; --accent: #702fd8; --img: url("https://images8.alphacoders.com/109/1092314.jpg");}
 .whitesnake {color: #d5983b; --accent: #d5983b;}
 .harechaser, .h {color: #3c9613; --accent: #3c9613;}
-.wolfblossom, .w {color: #a0c8e6; --accent: #a0c8e6;}
+.wolfblossom, .w {color: #a0c8e6; --accent: #a0c8e6; --img: url("https://eskipaper.com/images/frozen-forest-wallpapers-2.jpg");}
 .stoneheart, .sh {color: #616d87; --accent: #616d87;}
 .flamegaze {color: #d36702; --accent: #d36702;}
 .moondancer, .md {color: #80a395; --accent: #80a395;}
-.graywind, .g {color: #c99700; --accent: #c99700;}
+.graywind, .g {color: #c99700; --accent: #c99700; --img: url("https://images6.alphacoders.com/835/835303.jpg");}
 .aurelia, .a {color: #b2c667; --accent: #b2c667;}
 
 /****************
@@ -32,23 +32,26 @@ POSTING TEMPLATE
 .kj_postwrap {
   margin: 0 auto;
   width: 750px;
-  border-radius: 3px;
-  overflow: auto;
+  border-radius: 4px;
   background: #222222;
+  padding-top:30px;
 }
 
-.kj_posthead_img {
+.kj_postwrap h2 {text-align: center;border-bottom: 1px solid CurrentColor; margin: 0 50px; margin-bottom: 20px; padding-bottom: 20px;}
+
+.kj_postfoot_img {
   height: 300px;
-  background-image: url("https://i.pinimg.com/564x/81/21/99/812199e03b115ceff9aa340eb9418b5f.jpg");
-  background-size: 100%;
-  background-position: 0 400px;
+  background-image: var(--img);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-.kj_posthead_grad {
+.kj_postfoot_grad {
   margin-top: -300px;
   height: 300px;
   background: #435138;
-  background: linear-gradient(transparent, #222);
+  background: linear-gradient(#222, transparent);
 }
 
 .kj_lyrics {
@@ -64,23 +67,22 @@ POSTING TEMPLATE
   font-family: 'Inter';
   font-size: 16px;
   line-height: 1.5;
-  padding: 10px 30px 50px;
+  padding: 30px 50px;
   color: #ceced7;
   white-space: pre-line;
 }
 
 .kj_posttext b, .kj_posttext strong, .kj_posttext i, .kj_lyrics b, .kj_postooc b {color: var(--accent);}
 
-.kj_postfoot, .kj_postooc {
+.kj_posthead, .kj_postooc {
   font-family: 'Inter';
   text-transform: uppercase;
   text-align: center;
   padding: 5px 0;
   color: #ceced7;
-  margin-bottom: 20px;
 }
 
-.kj_postfoot .dot {
+.kj_posthead .dot {
   margin: 0 25px;
   color: var(--accent);
 }
