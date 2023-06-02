@@ -39,6 +39,30 @@ POSTING TEMPLATE
 
 .kj_postwrap h2 {text-align: center; color: var(--accent); border-bottom: 1px solid CurrentColor; margin: 0 50px; margin-bottom: 20px; padding-bottom: 20px;}
 
+.kj_posthead, .kj_postooc {
+  font-family: 'Inter';
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 0;
+  color: #ceced7;
+}
+
+.kj_posthead .dot {
+  margin: 0 25px;
+  color: var(--accent);
+}
+
+.kj_posttext {
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 30px 50px;
+  color: #ceced7;
+  white-space: pre-line;
+}
+
+.kj_posttext b, .kj_posttext strong, .kj_posttext i, .kj_lyrics b, .kj_postooc b {color: var(--accent);}
+
 .kj_postfoot_img {
   height: 300px;
   background-image: var(--img);
@@ -54,35 +78,16 @@ POSTING TEMPLATE
   background: linear-gradient(#222, transparent);
 }
 
-.kj_lyrics {
+.kj_lyrics, .kj_lyrics:after {
   font-family: georgia;
   position: relative;
-  bottom: -50%;
+  top: 45%;
   text-align: center;
   color: #ceced7;
   text-transform: uppercase;
+  white-space: pre;
 }
 
-.kj_posttext {
-  font-family: 'Inter';
-  font-size: 16px;
-  line-height: 1.5;
-  padding: 30px 50px;
-  color: #ceced7;
-  white-space: pre-line;
-}
-
-.kj_posttext b, .kj_posttext strong, .kj_posttext i, .kj_lyrics b, .kj_postooc b {color: var(--accent);}
-
-.kj_posthead, .kj_postooc {
-  font-family: 'Inter';
-  text-transform: uppercase;
-  text-align: center;
-  padding: 5px 0;
-  color: #ceced7;
-}
-
-.kj_posthead .dot {
-  margin: 0 25px;
-  color: var(--accent);
+.beechfang .kj_lyrics:after {
+  content: "Are they haunting you" '\A' "Do you feel any remorse";
 }
