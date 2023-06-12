@@ -34,13 +34,13 @@ POSTING TEMPLATE
   width: 750px;
   border-radius: 4px;
   background: #222222;
-  padding-top:30px;
 }
 .kj_postwrap a {color: var(--accent); font-weight: bold; text-decoration: underline;}
 
-.kj_postwrap h2 {text-align: center; color: var(--accent); border-bottom: 1px solid CurrentColor; margin: 0 50px; margin-bottom: 20px; padding-bottom: 20px;}
+.kj_postwrap h2 {text-align: center; color: var(--accent); border-bottom: 1px solid CurrentColor; margin: 0 50px; margin-bottom: 20px; padding-bottom: 20px;
+  padding-top:20px;}
 
-.kj_postfoot .kj_postfoot_img, .kj_img {
+.kj_postfoot .kj_postfoot_img, .moondancer .kj_img {
   height: 300px; width: 100%;
   background-image: var(--img);
   background-repeat: no-repeat;
@@ -54,8 +54,15 @@ POSTING TEMPLATE
 .kj_postfoot_grad {
   margin-top: -300px;
   height: 300px;
-  background: #435138;
+  background: var(--accent);
   background: linear-gradient(#222, transparent);
+}
+
+.kj_posthead_grad {
+  margin-top: -300px;
+  height: 300px;
+  background: var(--accent);
+  background: linear-gradient(transparent, #222);
 }
 
 .kj_lyrics, .kj_lyrics:after {
