@@ -96,6 +96,9 @@ POSTING TEMPLATE
   padding: 5px 0;
   color: #ceced7;
 }
+.kj_postooc {
+  text-transform: unset;
+}
 
 .kj_posthead .dot {
   margin: 0 25px;
