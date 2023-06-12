@@ -34,10 +34,12 @@ POSTING TEMPLATE
   width: 750px;
   border-radius: 4px;
   background: #222222;
+  font-size: 16px;
+  line-height: 1.25;
 }
 .kj_postwrap a {color: var(--accent); font-weight: bold; text-decoration: underline;}
 
-.kj_postwrap h2 {text-align: center; color: var(--accent); font-size:2em; border-bottom: 1px solid CurrentColor; margin: 0 50px; margin-bottom: 20px; padding-bottom: 20px; padding-top:20px;}
+.kj_postwrap h2 {text-align: center; color: var(--accent); font-size:2em!important; border-bottom: 1px solid CurrentColor; margin: 0 50px; margin-bottom: 20px; padding-bottom: 20px; padding-top:20px;}
 
 .kj_postfoot .kj_postfoot_img, .moondancer .kj_img {
   height: 300px; width: 100%;
