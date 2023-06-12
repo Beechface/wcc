@@ -22,7 +22,7 @@
 .wolfblossom, .w {color: #a0c8e6; --accent: #a0c8e6; --img: url("https://eskipaper.com/images/frozen-forest-wallpapers-2.jpg");}
 .stoneheart, .sh {color: #616d87; --accent: #616d87;}
 .flamegaze {color: #d36702; --accent: #d36702;}
-.moondancer, .md {color: #80a395; --accent: #80a395;}
+.moondancer, .md {color: #80a395; --accent: #80a395; --img: url("https://images3.alphacoders.com/105/105869.jpg");}
 .graywind, .g {color: #c99700; --accent: #c99700; --img: url("https://images6.alphacoders.com/835/835303.jpg");}
 .aurelia, .a {color: #b2c667; --accent: #b2c667;}
 
@@ -36,15 +36,19 @@ POSTING TEMPLATE
   background: #222222;
   padding-top:30px;
 }
+.kj_postwrap a {color: var(--accent); font-weight: bold; text-decoration: underline;}
 
 .kj_postwrap h2 {text-align: center; color: var(--accent); border-bottom: 1px solid CurrentColor; margin: 0 50px; margin-bottom: 20px; padding-bottom: 20px;}
 
-.kj_postfoot_img {
+.kj_postfoot .kj_postfoot_img, .kj_img {
   height: 300px; width: 100%;
   background-image: var(--img);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
+}
+.moondancer .kj_postfoot_img {
+  --img: url("https://images4.alphacoders.com/106/thumb-1920-106454.jpg");
 }
 
 .kj_postfoot_grad {
@@ -66,6 +70,12 @@ POSTING TEMPLATE
 
 .beechfang .kj_lyrics:after {
   content: "Are they haunting you" '\A' "Do you feel any remorse";
+}
+.moondancer .kj_lyrics:nth-of-type(1):after {
+  content: "Bodies fill the fields I see, hungry heroes end...";
+}
+.moondancer .kj_postfoot .kj_lyrics:after {
+  content: "...Victim of what said should be, a servant 'til I fall...";
 }
 
 .kj_posttext {
