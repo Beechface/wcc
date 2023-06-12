@@ -85,6 +85,12 @@ POSTING TEMPLATE
 .moondancer .kj_postfoot .kj_lyrics:after {
   content: "...Victim of what said should be, a servant 'til I fall...";
 }
+.moondancer.death .kj_lyrics:nth-of-type(1):after {
+  content: "...Bodies fill the fields I see, the slaughter never ends...";
+}
+.moondancer.death .kj_postfoot .kj_lyrics:after {
+  content: "...Finished here, greeting death, he's yours to take away";
+}
 
 .kj_posttext {
   font-family: 'Inter';
