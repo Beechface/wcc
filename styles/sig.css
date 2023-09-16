@@ -4,7 +4,7 @@
 .kt {font-family: 'Inter'; display:block; text-align:center; background: url(https://beechface.github.io/wcc/sig/Snickerdoodle.png);background-size: cover;flex-basis: 100%;width: 1000px;height: 320px;flex-grow: 1;}
 .kb {font-family: 'Inter'; display:block; text-align:center; width: 1000px; flex-grow: 1;}
 
-.kj .fl {font-weight:normal;width:calc(1000px / 7);}
+.kj .fl {font-weight:normal;width:calc(1000px / 6);}
 
 .fl span:first-of-type {display:block; font-weight:bold;}
 
