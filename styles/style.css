@@ -61,6 +61,7 @@ a {
 .graywind {--accent-solid: #c99700;}
 .aurelia {--accent-solid: #b2c667;}
 .swandive {--accent-solid: #0881ab;}
+.briartuft {--accent-solid: ##867b6b;}
 
 header, main, footer {
 	width: var(--content-width);
