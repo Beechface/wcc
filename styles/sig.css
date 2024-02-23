@@ -1,7 +1,7 @@
 @import url('/wcc/styles/fontInter.css');
 
 .kj {font-family: 'Inter'; width:1000px; height:auto; margin:auto;text-align:center;font-weight:bold;display:flex;flex-wrap:wrap;}
-.kt {font-family: 'Inter'; display:block; text-align:center; background: url(https://beechface.github.io/wcc/sig/Snickerdoodle.png) center center no-repeat;background-size: cover;flex-basis: 100%;width: 1000px;height: 320px;flex-grow: 1;}
+.kt {font-family: 'Inter'; display:block; text-align:center; background: url(https://beechface.github.io/wcc/sig/Kiikko.PNG) center center no-repeat;background-size: cover;flex-basis: 100%;width: 1000px;height: 450px;flex-grow: 1;}
 .kb {font-family: 'Inter'; display:block; text-align:center; width: 1000px; flex-grow: 1;}
 
 .kj .fl {font-weight:normal;width:calc(1000px / 6);}
