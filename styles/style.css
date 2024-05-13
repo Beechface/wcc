@@ -62,6 +62,8 @@ a {
 .aurelia {--accent-solid: #b2c667;}
 .swandive {--accent-solid: #0881ab;}
 .briartuft {--accent-solid: #867b6b;}
+.honeypaw {--accent-solid: #ff4732;}
+.cloudjumper {--accent-solid: #a45ee9;}
 
 header, main, footer {
 	width: var(--content-width);
