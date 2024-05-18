@@ -9,9 +9,9 @@
 .kt {display:block; text-align:center; background: url(https://beechface.github.io/wcc/sig/Kiikko.PNG) center center no-repeat;background-size: cover;flex-basis: 100%;width: 1000px;height: 450px;flex-grow: 1;}
 .kb {display:block; text-align:center; width: 1000px; flex-grow: 1;}
 
-.kj .fl {font-weight:normal;width:calc(1000px / 7);}
+.kj .fl {font-weight:normal;color:#111;width:calc(1000px / 7);}
 
-.fl span:first-of-type {display:block; font-weight:bold;}
+.kj .fl span:first-of-type {display:block; font-weight:bold;}
 
 .smokefeather {color: #427057; --accent: #427057;}
 .beechfang, .b {color: #6e8c0a; --accent: #6e8c0a;}
