@@ -9,7 +9,7 @@
 .kt {display:block; text-align:center; background: url(https://beechface.github.io/wcc/sig/Kiikko.PNG) center center no-repeat;background-size: cover;flex-basis: 100%;width: 1000px;height: 450px;flex-grow: 1;}
 .kb {display:block; text-align:center; width: 1000px; flex-grow: 1;}
 
-.kj .fl {font-weight:normal;width:calc(1000px / 6);}
+.kj .fl {font-weight:normal;width:calc(1000px / 7);}
 
 .fl span:first-of-type {display:block; font-weight:bold;}
 
