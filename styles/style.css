@@ -65,6 +65,7 @@ a {
 .honeybee {--accent-solid: #ff4732;}
 .cloudjumper {--accent-solid: #a45ee9;}
 .asteria {--accent-solid: #1697ce;}
+.sparrow {--accent-solid: #289b49;}
 
 header, main, footer {
 	width: var(--content-width);
