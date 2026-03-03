@@ -1,0 +1,212 @@
+:root {
+    color-scheme: light dark;
+    --bg-page: light-dark(#f4f4f4, #000000);
+    --bg-surface: light-dark(#ffffff, #181818);
+    --text-main: light-dark(#222222, #e0e0e0);
+    --text-muted: light-dark(#555555, #aaaaaa);
+    --accent: light-dark(#637c7c, #8fb3b3);
+    --border: light-dark(#dddddd, #333333);
+}
+body {
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    font-family: 'Inter';
+    font-feature-settings: 'liga', 'calt', 'cv03', 'cv04', 'cv05';
+}
+a, a:active, a:link, a:visited {
+    font-weight: bold;
+    color: var(--text-main);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+a:active, a:focus, a:hover {
+    color: var(--accent);
+    text-decoration: none;
+}
+li strong, li b, p b {color: var(--text-muted);}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    background-color: var(--bg-surface);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+nav a {
+    color: var(--text-main);
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15ch;
+}
+nav a:hover {color: var(--accent);}
+main {
+    width: 85%;
+    margin: 60px auto;
+    padding: 0 1rem;
+}
+section {
+    background-color: var(--bg-surface);
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+}
+section section {
+    background: revert;
+    padding: 0;
+    border: 0;
+}
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+h1, h2, h3, h4 {
+    color: var(--accent);
+    margin-bottom: 1rem;
+    letter-spacing: 0.1ch;
+}
+h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+p {margin-bottom: 0.5rem;}
+details {
+    margin: 1rem 0;
+    border: 1px solid var(--border);
+    padding: 0.5rem;
+    background-color: var(--bg-page);
+}
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.5rem;
+    transition: color 0.2s ease;
+}
+summary:hover {color: var(--accent);}
+summary h2, summary h3 {
+    display: inline-block;
+    border-bottom: revert;
+    padding-bottom: revert;
+}
+details[open] summary {border-bottom: 1px solid var(--border);}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    place-items: center;
+}
+.gallery figure {
+    flex: 0 1 150px;
+    padding: 0.4rem;
+    margin: 0.5rem 1rem;
+}
+.gallery figure > a,
+.gallery figure figcaption {
+    display: block;
+}
+.gallery figure a img {
+    height: auto;
+    width: 100%;
+}
+.gallery figcaption {color: var(--text-muted);}
+figure img {
+    max-width: 150px;
+    max-height: 150px;
+}
+.index-list {
+    list-style: none;
+    padding: 0;
+}
+.index-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+}
+.index-list li:last-child {border-bottom: none;}
+.index-list li span {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background-color: var(--bg-page);
+    padding: 0.2rem 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+}
+.basics-list {
+    list-style: none;
+    padding: 0;
+}
+.basics-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+}
+.basics-list li span:first-child {
+    font-weight: bold;
+    color: var(--text-muted);
+}
+.basics-list li:last-child {border-bottom: none;}
+.thread-section {
+    margin-top: 1.5rem;
+    padding: 1rem;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        margin: 0;
+        font-size: 0.8rem;
+    }
+    main {
+        width: 100%;
+        margin: 0;
+    }
+    section {padding: 0.75rem;}
+    .basics-list li, .index-list li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+    }
+}
+
+.smokefeather {--accent: #427057;}
+.beechfang {--accent: #6e8c0a;}
+.mistyfalcon {--accent: #1944c1;}
+.nighthawk {--accent: #d15c2a;}
+.eosphoros {--accent: #5c563d;}
+.birdsong {--accent: #5bbd75;}
+.swiftspirit {--accent: #52c4c2;}
+.featherfrost {--accent: #1697ce;}
+.brackenwing {--accent: #702fd8;}
+.whitesnake {--accent: #d5983b;}
+.harechaser {--accent: #3c9613;}
+.wolfblossom { --accent: #a0c8e6;}
+.stoneheart {--accent: #616d87;}
+.flamegaze {--accent: #d36702;}
+.moondancer {--accent: #80a395;}
+.graywind {--accent: #c99700;}
+.aurelia {--accent: #b2c667;}
+.swandive {--accent: #0881ab;}
+.briarpatch {--accent: #867b6b;}
+.honeybee {--accent: #ff4732;}
+.cloudjumper {--accent: #a45ee9;}
+.oceanripple {--accent: #1697ce;}
+.sparrow {--accent: #289b49;}
