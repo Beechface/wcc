@@ -4,7 +4,9 @@
     --bg-surface: light-dark(#ffffff, #181818);
     --text-main: light-dark(#222222, #e0e0e0);
     --text-muted: light-dark(#555555, #aaaaaa);
-    --accent: light-dark(#637c7c, #8fb3b3);
+    --accent: light-dark(#527c8c, #7bbad1);
+    --link: light-dark(#3e8ca8, #449ebf);
+    --link-hover: light-dark(#449ebf, #3e8ca8);
     --border: light-dark(#dddddd, #333333);
 }
 body {
@@ -15,12 +17,12 @@ body {
 }
 a, a:active, a:link, a:visited {
     font-weight: bold;
-    color: var(--text-main);
+    color: var(--link);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 a:active, a:focus, a:hover {
-    color: var(--accent);
+    color: var(--link-hover);
     text-decoration: none;
 }
 li strong, li b, p b {color: var(--text-muted);}
@@ -150,6 +152,9 @@ figure img {
     border: 1px solid var(--border);
     border-radius: 2px;
 }
+.index-list a {color: var(--text-main);}
+.index-list a:hover, .index-list a:focus, .index-list a:active {color: var(--accent);}
+
 .basics-list {
     list-style: none;
     padding: 0;
