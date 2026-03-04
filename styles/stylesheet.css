@@ -5,8 +5,8 @@
     --text-main: light-dark(#222222, #e0e0e0);
     --text-muted: light-dark(#555555, #aaaaaa);
     --accent: light-dark(#527c8c, #7bbad1);
-    --link: light-dark(#3e8ca8, #449ebf);
-    --link-hover: light-dark(#449ebf, #3e8ca8);
+    --link: light-dark(#3e8ca8, #4badd1);
+    --link-hover: light-dark(#449ebf, #3b85a0);
     --border: light-dark(#dddddd, #333333);
 }
 body {
@@ -15,7 +15,7 @@ body {
     font-family: 'Inter';
     font-feature-settings: 'liga', 'calt', 'cv03', 'cv04', 'cv05';
 }
-a, a:active, a:link, a:visited {
+a, a:link, a:visited {
     font-weight: bold;
     color: var(--link);
     text-decoration: none;
