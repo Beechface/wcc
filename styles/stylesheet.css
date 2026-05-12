@@ -2,11 +2,15 @@
     color-scheme: light dark;
     --bg-page: light-dark(#f4f4f4, #000000);
     --bg-surface: light-dark(#ffffff, #181818);
+    --bg-nav: light-dark(#ffffff, #181818);
     --text-main: light-dark(#222222, #e0e0e0);
     --text-muted: light-dark(#555555, #aaaaaa);
+    --text-title: light-dark(#527c8c, #7bbad1);
     --accent: light-dark(#527c8c, #7bbad1);
     --link: light-dark(#3e8ca8, #4badd1);
     --link-hover: light-dark(#449ebf, #3b85a0);
+    --navlink: light-dark(#3e8ca8, #4badd1);
+    --navlink-hover: light-dark(#449ebf, #3b85a0);
     --border: light-dark(#dddddd, #333333);
 }
 body {
@@ -14,12 +18,13 @@ body {
     color: var(--text-main);
     font-family: 'Inter';
     font-feature-settings: 'liga', 'calt', 'cv03', 'cv04', 'cv05';
+    transition: color 0.2s ease, background 0.2s ease;
 }
 a, a:link, a:visited {
     font-weight: bold;
     color: var(--link);
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color 0.2s ease, background 0.2s ease;
 }
 a:active, a:focus, a:hover {
     color: var(--link-hover);
@@ -31,7 +36,7 @@ nav {
     top: 0;
     left: 0;
     height: 60px;
-    background-color: var(--bg-surface);
+    background-color: var(--bg-nav);
     border-bottom: 1px solid var(--border);
     display: flex;
     align-items: center;
@@ -39,7 +44,7 @@ nav {
     z-index: 1000;
 }
 nav a {
-    color: var(--text-main);
+    color: var(--navlink);
     text-decoration: none;
     margin: 0 1.5rem;
     font-weight: bold;
@@ -47,7 +52,7 @@ nav a {
     text-transform: uppercase;
     letter-spacing: 0.15ch;
 }
-nav a:hover {color: var(--accent);}
+nav a:hover {color: var(--navlink-hover);}
 main {
     width: 85%;
     margin: 60px auto;
@@ -73,7 +78,7 @@ footer {
     font-size: 0.8rem;
 }
 h1, h2, h3, h4 {
-    color: var(--accent);
+    color: var(--text-title);
     margin-bottom: 1rem;
     letter-spacing: 0.1ch;
 }
@@ -98,9 +103,9 @@ summary {
     cursor: pointer;
     font-weight: bold;
     padding: 0.5rem;
-    transition: color 0.2s ease;
+    color: var(--link);
 }
-summary:hover {color: var(--accent);}
+summary:hover {color: var(--link-hover);}
 summary h2, summary h3 {
     display: inline-block;
     border-bottom: revert;
