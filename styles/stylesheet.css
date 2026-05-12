@@ -198,9 +198,9 @@ figure img {
         align-items: flex-start;
         gap: 0.25rem;
     }
-    #Family ul {
-        padding-left: 0.2rem;
-    }
+    #Family ul { padding-left: 0.2rem; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.2rem; }
 }
 
 .smokefeather {--accent: #427057;}
