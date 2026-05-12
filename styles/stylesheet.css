@@ -14,6 +14,7 @@
     --navlink: light-dark(#3e8ca8, #4badd1);
     --navlink-hover: light-dark(#449ebf, #3b85a0);
     --border: light-dark(#dddddd, #333333);
+    --nav-height: 60px;
 }
 body {
     background-color: var(--bg-page);
@@ -37,7 +38,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    height: 60px;
+    height: var(--nav-height);
     background-color: var(--bg-nav);
     border-bottom: 1px solid var(--border);
     display: flex;
@@ -57,7 +58,7 @@ nav a {
 nav a:hover {color: var(--navlink-hover);}
 main {
     width: 85%;
-    margin: 60px auto;
+    margin: var(--nav-height) auto;
     padding: 0 1rem;
 }
 section {
@@ -189,7 +190,7 @@ figure img {
     }
     main {
         width: 100%;
-        margin: 0;
+        margin: var(--nav-height) auto;
         padding: 0 0.3rem;;
     }
     section {padding: 0.5rem;}
