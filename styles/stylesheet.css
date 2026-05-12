@@ -1,4 +1,4 @@
-@import("/wcc/styles/fontInter.css");
+@import url("/wcc/styles/fontInter.css");
 
 :root {
     color-scheme: light dark;
