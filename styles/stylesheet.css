@@ -173,10 +173,6 @@ figure img {
     display: flex;
     justify-content: space-between;
 }
-.basics-list li span:first-child {
-    font-weight: bold;
-    color: var(--text-muted);
-}
 .basics-list li:last-child {border-bottom: none;}
 .thread-section {
     margin-top: 1.5rem;
@@ -231,3 +227,5 @@ figure img {
 .sparrow {--accent: #289b49;}
 .ospreywing {--accent: #27a35e;}
 .soot {--accent: #8a3324;}
+.leopard {--accent: #966d33;}
+.leopard-feral {--accent: #5e9932;}
