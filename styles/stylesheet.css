@@ -180,7 +180,7 @@ figure img {
 }
 
 @media (max-width: 600px) {
-    :root { --nav-height: 120px; }
+    :root { --nav-height: 60px; }
     nav { height: var(--nav-height); }
     nav a {
         margin: 0;
